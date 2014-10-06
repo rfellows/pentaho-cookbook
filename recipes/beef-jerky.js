@@ -15,7 +15,7 @@ pentahoRecipeBook.recipes.push({
   ],
   steps: [
     "slice the beef cross-grain into 1/4 inch wide pieces",
-    "trim off any excess fat. fat does not dehydrate"
+    "trim off any excess fat. fat does not dehydrate",
     "combile all sauces and spices in a large ziplock bag/container",
     "add beef",
     "marinate for at least 8 hours in the fridge",
