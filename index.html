@@ -96,14 +96,17 @@
     <!-- TODO: Externalize -->
     <script id="recipe-template" type="text/x-handlebars-template">
       <h2>{{title}}</h2>
-      <p>{{description}}</p>
+      <p>
+        {{description}}
+        <label class="control-label">by <em>{{author}}</em></label>
+      </p>
       <p>
       <h3>Ingredients:</h3>
-       <ol>
+       <ul>
        {{#each ingredients}}
           <li>{{quantity}} {{name}}</li>
        {{/each}}
-       </ol>
+       </ul>
 
       <h3>Steps:</h3>
        <ol>
